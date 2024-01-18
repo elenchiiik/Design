@@ -1,0 +1,151 @@
+@import url(font.css);
+body{
+    font-family:"Nunito Sans" ;
+    margin: 0;
+}
+.header{
+    background-color:#131313 ;
+    
+}
+.container{
+    width: 1256px;
+}
+.header-contant{
+    display: flex;
+    flex-direction: row;
+    height: 83px;
+    align-items: center;
+    margin-left: 95px;
+}
+.logo{
+    font-family: "Nunito Sans";
+    text-decoration: none;
+    color: #E3B873;
+    font-size: 11px;
+    margin-right: 95.5px;
+}
+.header_nav_list{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    color: #FFFFFF;
+
+}
+.header_nav_items{
+    color: #FFFFFF;
+    margin-right: 47px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 11px;
+}
+.header_nav_items_o{
+    font-family: "Nunito Sans";
+    color: #E3B873;
+    margin-right: 47px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 11px;
+}
+.header__button{
+    background-color: #E3B873;
+    border-radius: 2px;
+    font-size: 11px;
+    outline: 0;
+    border: 0;
+    color: white;
+    height: 37px;
+    width: 161px;
+    text-transform: uppercase;
+}
+.tel{
+    color: #E3B873;
+    margin-right: 45px;
+    font-size: 11px;
+    margin-left: 67px;
+}
+.hero{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 707px;
+}
+.title{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: Yeseva One;
+    font-size: 40px;
+    padding-top: 137px;
+    width: 676.11;
+}
+.title-o{
+    margin: 0;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 40px; 
+}
+.text{
+    color: #FFFFFF;
+    font-size: 22px;
+    position: relative;
+    z-index: 1;
+    width: 504px;
+    height: 89px;
+    margin-left: 134px;
+    margin-bottom: 0;
+}
+.overlay{
+    margin-top: 83px;
+    height: 707px;
+    content: " ";
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.hero-container{
+    position: relative;
+    z-index: 1;
+    margin-left: 134px;
+}
+.hero__button1{
+    background-color: #E3B873;
+    border-radius: 2px;
+    font-size: 11px;
+    font-style: italic;
+    outline: 0;
+    border: 0;
+    color: white;
+    height: 51px;
+    width: 207px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    margin-left: 134px;
+    margin-top: 41px;
+}
+.hero__button2{
+    margin-top: 41px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-style: italic;
+    display: inline-block;
+    width: 200px;
+    height: 51px;
+    margin-left: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+ 
+}
+.hero__button2:hover,
+.hero__button2:active {
+  background-color: #fff;
+  color: #000;}
